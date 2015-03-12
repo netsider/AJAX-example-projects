@@ -8,12 +8,14 @@ function init(){
 		console.log(request.responseXML.getElementsByTagName('speaker')[0]); // Logs first element to console
 		console.log(request.responseXML.getElementsByTagName('name')[0].firstChild); // Logs the first element's <name> tags' first child to console
 		console.log(request.responseXML.getElementsByTagName('name')[0].firstChild.nodeValue); // Logs the first element's <name> tags' firstChild's nodeValue to console
-		var items = request.responseXML.getElementsByTagName('name'); // Puts all <name> tags into an array.
-		//console.log(items);
-		//console.log(items.nodeValue);
-		//console.log(JSON.stringify(items)); //Uncaught TypeError: Converting circular structure to JSON
-		console.log(items[1]);
-		console.log(items[2]);
+		var items = request.responseXML.getElementsByTagName('name');
+		var output = '<ul>';
+			for(var i = 0;i < items.length; i++){
+				output += '<li>' + items[i].firstChild.nodeValue + '</li>';
+				console.log(items[i].firstChild.nodeValue);
+			}
+		output += '</ul>';
+		document.getElementById('update').innerHTML = output;
 		}
 	};
 	request.send();
