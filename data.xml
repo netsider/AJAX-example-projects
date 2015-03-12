@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="0.91">
-    <channel>
-        <title>Sample XMP Document</title>
-		<link>http://www.example1.com</link>
-        <link>http://www.example.com</link>
-        <description>A sample XMP document description tag</description>
-        <language>en</language>
-    </channel>
-	<channel>
-		  <title>Sample XMP Document</title>
-		<link>http://www.example1.com</link>
-        <link>http://www.example.com</link>
-        <description>A sample XMP document description tag</description>
-        <language>en</language>
-	</channel>
-</rss>
+<speakers>
+	<speaker>
+		<name>Russell</name>
+		<shortname>Russ</shortname>
+		<bio>Location: Maryland</bio>
+	</speaker>
+	<speaker>
+		<name>Stephen</name>
+		<shortname>Steve</shortname>
+		<bio>Location: Maryland</bio>
+	</speaker>
+	<speaker>
+		<name>Damien</name>
+		<shortname>Dame</shortname>
+		<bio>Location: West Virginia</bio>
+	</speaker>
+	<speaker>
+		<name>Melissa</name>
+		<shortname>Melis</shortname>
+		<bio>Location: New York</bio>
+	</speaker>
+</speakers>
