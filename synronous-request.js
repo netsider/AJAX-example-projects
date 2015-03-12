@@ -1,3 +1,4 @@
+//is deprecated and should fire a warning
 // single "syncronous" request
 var request = new XMLHttpRequest();
 request.open('GET', 'data.txt', false);
