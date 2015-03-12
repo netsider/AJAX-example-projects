@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="0.91">
+    <channel>
+        <title>Sample XMP Document</title>
+		<link>http://www.example1.com</link>
+        <link>http://www.example.com</link>
+        <description>A sample XMP document description tag</description>
+        <language>en</language>
+    </channel>
+	<channel>
+		  <title>Sample XMP Document</title>
+		<link>http://www.example1.com</link>
+        <link>http://www.example.com</link>
+        <description>A sample XMP document description tag</description>
+        <language>en</language>
+	</channel>
+</rss>
