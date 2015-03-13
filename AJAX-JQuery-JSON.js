@@ -5,5 +5,6 @@ $.getJSON('data.json', function(data) {
 		output += '<li>' + val.name + ' lives in ' + val.bio + '</li>'; //append 
 	});
 	output += '</ul>';
-	$('#update').html(output);
+	// $('#update').html(output);
+	$('#update').append(output);
 });
