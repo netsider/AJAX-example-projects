@@ -1,3 +1,34 @@
 body{
 	background: #DAD7C7;
 }
+#update ul li {
+
+width: 100%;
+background: red;
+height: 110px;
+
+-webkit-animation: myanim 1s;
+animation: myanim 1s;
+
+transition: height 0.3s ease-out;
+}
+
+@-webkit-keyframes myanim{
+0% { opacity 0.3;}
+100% { opacity 1.0;}
+}
+
+@-moz-keyframes myanim{
+0% { opacity 0.3;}
+100% { opacity 1.0;}
+}
+
+@-o-keyframes myanim{
+0% { opacity 0.3;}
+100% { opacity 1.0;}
+}
+
+@keyframes myanim{
+0% { opacity 0.3;}
+100% { opacity 1.0;}
+}
