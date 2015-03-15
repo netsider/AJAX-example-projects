@@ -1,0 +1,9 @@
+< ?xml version="1.0" ?>
+ 
+<corporate>
+ <employee>
+  <name>Satish</name>
+  <age>25</age>
+  <company>Microsoft</company>
+ </employee>
+</corporate>

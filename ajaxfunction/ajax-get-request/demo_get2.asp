@@ -1,0 +1,5 @@
+
+<!-- saved from url=(0043)http://www.w3schools.com/ajax/demo_get2.asp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><p>
+Hello  
+</p><div id="dial-box" style="resize:both;display:none;" title="Add or edit notes"><textarea id="cont" style="border:1px solid black;width:97%;height:100px;overflow:scroll;overflow-y:scroll;overflow-x:scroll;"></textarea></div><div id="copy-notes" style="position:fixed;bottom:200px;height:30px;text-align:center;" contenteditable="true"></div><embed id="plugin" src="" type="application/npjucedemo-plugin" width="0" height="0"><div id="dialog-overlay" style="display: none;"></div><div id="dialog-box" style="display: none;">	<div class="dialog-content">		<div id="dialog-message"></div><p></p><p></p>	<p><input id="showURLCheckBx" type="checkbox" name="showHideURLs">&nbsp;&nbsp;Dont Show this message box</p><br>	<a href="http://www.w3schools.com/ajax/demo_get2.asp#" class="button123">Close</a></div></div></body></html>
